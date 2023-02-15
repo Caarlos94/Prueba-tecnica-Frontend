@@ -1,0 +1,512 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+/* Navegación */
+.nav-link {
+  border: thin solid #77c1fe;
+  color: #77c1fe;
+  padding: 4px;
+  font-weight: 500;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav-link:hover {
+  color: #00409a
+}
+
+/* Hero */
+.hero {
+  width: 100vw;
+  height: 95vh;
+  background-color: #468feb;
+  margin-top: 56px;
+  position: relative;
+}
+
+.hero-info-contenedor {
+  padding: 0 5rem;
+  height: 60px;
+  color: white;
+  font-weight: 500;
+}
+
+.hero-info-contenedor span {
+  letter-spacing:2.5px;
+  font-size: 17px;
+}
+
+.hero-contenedor-titulos {
+  position: absolute;
+  top: 480px;
+  right: 70px;
+}
+
+.hero-titulo-1, .hero-titulo-2 {
+  font-weight: bold;
+  font-size: 4.25rem;
+  color: #2871cd;
+  margin: 0;
+}
+
+.hero-titulo-2 {
+  color: #00409a;
+  margin-top: -1rem;
+}
+
+.contenedor-img img {
+  position: absolute;
+  border-radius: 10px;
+}
+
+.contenedor-img img:hover {
+  border: 4px solid #00409a;
+}
+
+.img-1 {
+  width: 240px;
+  left: 100px;
+  top: 140px;
+  z-index: 100;
+}
+
+.img-2 {
+  width: 270px;
+  left: 250px;
+  top: 240px;
+  z-index: 60;
+}
+
+.img-3 {
+  width: 270px;
+  left: 450px;
+  top: 115px;
+  z-index: 80;
+}
+
+.img-4 {
+  width: 240px;
+  left: 650px;
+  top: 240px;
+  z-index: 90;
+}
+
+.img-5 {
+  width: 270px;
+  left: 830px;
+  top: 80px;
+  z-index: 70;
+}
+
+.caja-1 {
+  position: absolute;
+  height: 136px;
+  border: 7px solid #00409a;
+  border-left: transparent;
+  top: 90px;
+  left: 0px;
+  width: 195px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.caja-2 {
+  position: absolute;
+  height: 506px;
+  border: 7px solid #00409a;
+  border-bottom: transparent;
+  top: 210px;
+  left: 190px;
+  width: 190px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.caja-3 {
+  position: absolute;
+  height: 100px;
+  border: 7px solid #00409a;
+  border-top: transparent;
+  border-right: transparent;
+  top: 320px;
+  left: 600px;
+  width: 100px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.caja-4 {
+  position: absolute;
+  height: 200px;
+  border: 7px solid #00409a;
+  border-right: transparent;
+  top: 220px;
+  right: 0px;
+  width: 500px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Página 1 */
+.pagina-1 {
+  margin: 3.5rem 0;
+}
+
+.pagina-1-info-container {
+  padding: 0 2rem 0 4rem;
+}
+
+.pagina-1-info-container-down {
+  padding: 0 4rem 0 2rem;
+}
+
+.pagina-1-info-container p {
+  text-align: justify;
+}
+
+.img-6 {
+  width: 100%;
+  height: auto;
+}
+
+.pagina1-img-container {
+  background-color: #468feb;
+  padding: 2rem;
+}
+
+.pagina1-img-container span {
+  font-weight: 500;
+  font-size: 20px;
+  color: #00409a;
+}
+
+.pagina1-img-container span:nth-child(2) {
+  color: white;
+}
+
+.pagina1-info-container {
+  padding: 1rem;
+  background-color: #77c1fe;
+  text-align: center;
+  color: white;
+}
+
+/* Página 2 */
+.pagina-2 {
+  padding: 2rem 0;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.pagina-2-titulo {
+  letter-spacing: 8px;
+  color: #468feb;
+  font-weight: 500;
+  padding-left: 8rem;
+  font-size: 20px;
+}
+
+.servicios-principales {
+  width: 95%;
+}
+
+.servicios-principales-text {
+  letter-spacing: 5px;
+  color: #468feb;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.servicio-1 {
+  background-color: #77c1fe;
+  padding: 4px 16px;
+  font-weight: 500;
+}
+
+.servicio-3 {
+  background-color: #2871cd;
+  padding: 4px 16px;
+  font-weight: 500;
+}
+
+.servicio-2 {
+  background-color: #468feb ;
+  padding: 4px 10px 4px 14px;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.servicio-4 {
+  background-color: #00409a ;
+  padding: 4px 9px;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.total-usuarios {
+  color: #468feb;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.marcas {
+  width: 180px;
+  background-color: #468feb;
+}
+
+.marcas-principales {
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.marcas-contenedor {
+  height: 100%;
+}
+
+.contador-text {
+  color: #468feb;
+  font-weight: bold;
+}
+
+/* Sobre nosotros */
+.hero-sobre-nosotros {
+  width: 100vw;
+  height: 95vh;
+  background-color: #77c1fe;
+  margin-top: 56px;
+  position: relative;
+}
+
+.hero-sobre-nosotros-titulo {
+  letter-spacing: 5px;
+}
+
+.hero-sobre-nosotros-datos {
+  color: #2871cd;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero-sobre-nosotros-info-contenedor {
+  position: absolute;
+  top: 18%;
+  right: 10%;
+}
+
+.img-1-sobre-nosotros {
+  width: 250px;
+  left: 160px;
+  top: 75px;
+  z-index: 70;
+}
+
+.img-2-sobre-nosotros {
+  width: 250px;
+  left: 600px;
+  top: 120px;
+  z-index: 50;
+}
+
+.hero-sobre-nosotros-numeros {
+  position: absolute;
+  top: 22%;
+  right: 12%;
+}
+
+.hero-sobre-nosotros-numeros p {
+  display: inline-block;
+  color: #468feb;
+  font-size: 9rem;
+  font-weight: bold;
+}
+
+.hero-sobre-nosotros-numeros p:nth-child(2) {
+  color: #2871cd;
+}
+
+.hero-sobre-nosotros-titulo-1, .hero-sobre-nosotros-titulo-2 {
+  font-weight: bold;
+  font-size: 5rem;
+  color: #00409a;
+  letter-spacing: 6px;
+  margin: 0;
+}
+
+.hero-sobre-nosotros-titulo-2 {
+  color: #2871cd;
+  font-size: 3.75rem;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+.hero-sobre-nosotros-contenedor-titulos {
+  width: 800px;
+  position: absolute;
+  top: 53%;
+  left: 25%;
+}
+
+.hero-sobre-nosotros-contenedor-titulos p:nth-child(2) {
+  margin-top: -1.5rem;
+}
+
+.caja-1-sobre-nosotros {
+  position: absolute;
+  height: 95px;
+  border: 7px solid #00409a;
+  border-right: transparent;
+  top: 260px;
+  left: 100px;
+  width: 550px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.caja-2-sobre-nosotros {
+  position: absolute;
+  height: 130px;
+  border: 7px solid #00409a;
+  top: 80px;
+  right: 450px;
+  width: 130px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.caja-3-sobre-nosotros {
+  position: absolute;
+  height: 350px;
+  border: 7px solid #00409a;
+  border-right: transparent;
+  border-bottom: transparent;
+  bottom: 0px;
+  right: 0px;
+  width: 130px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.caja-4-sobre-nosotros {
+  position: absolute;
+  height: 250px;
+  border: 7px solid #468feb;
+  border-right: transparent;
+  top: 88%;
+  right: 0;
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out;
+  z-index: 40;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Principal sobre nosotros */
+.pagina-1-sobre-nosotros {
+  margin: 3.5rem 0 15rem 0;
+  position: relative;
+}
+
+.pagina-1-sobre-nosotros-titulo {
+  letter-spacing: 10px;
+  color: #468feb;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.pagina-1-sobre-nosotros-texto {
+  color: #77c1fe;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.pagina-1-sobre-nosotros-info-contenedor {
+  width: 80%;
+}
+
+.pagina-1-sobre-nosotros-info-contenedor div {
+  padding-right: 1.5rem;
+  width: 350px;
+}
+
+.pagina-1-sobre-nosotros-info-contenedor p {
+  text-align: justify;
+}
+
+.total-usuarios-sobre-nosotros {
+  color: #468feb;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+.contador-text-sobre-nosotros {
+  color: #468feb;
+  font-weight: bold;
+  padding-right: 9rem;
+}
+
+.sobre-nosotros-img {
+  position: absolute;
+  height: 425px;
+  top: 10%;
+  right: 8%;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.sobre-nosotros-img:hover {
+  border: 4px solid #00409a;
+}
+
+.sobre-nosotros-graficas-contenedor {
+  width: 1100px;
+  background-color: #77c1fe;
+  position: absolute;
+  left: 0;
+  padding: 1.5rem 0 1.5rem 6.5rem;
+}
+
+.sobre-nosotros-grafica-1-contenedor {
+  margin-right: 4rem;
+  width: 40%;
+}
+
+progress {
+  height: 12px; /* altura de la barra de progreso */
+  width: 80%; /* ancho de la barra de progreso */
+  border: none; /* sin borde */
+}
+
+progress::-webkit-progress-bar {
+  background-color: #468feb; /* color de fondo de la barra en Chrome/Safari */
+}
+
+progress::-webkit-progress-value {
+  background-color: white; /* color de la barra de progreso en Chrome/Safari */
+}
